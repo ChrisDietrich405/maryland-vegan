@@ -23,5 +23,14 @@
 }
 
 .inner_container a {
-  text-decoration: none;
+  color: 000;
+  text-decoration: none; 
+  padding: 7px 20px; 
+  border-radius: 6px;
+  transition: .8s;  
+}
+
+.inner_container a:hover {
+  background: #95cc1e;
+  cursor: pointer
 }

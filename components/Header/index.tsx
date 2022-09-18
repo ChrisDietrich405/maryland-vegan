@@ -18,7 +18,10 @@ const Header = () => {
               <Link href="/about">About</Link>
             </li>
             <li>
-              <Link href="/calendar">Calendar</Link>
+              <Link href="/restaurants">Restaurants</Link>
+            </li>
+            <li>
+              <Link href="/Calendar">Calendar</Link>
               {/* calendar is a component or page it's a component but how do I make a page from that */}
             </li>
           </ul>

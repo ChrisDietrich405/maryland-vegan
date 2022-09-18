@@ -1,0 +1,11 @@
+.calendar_container {
+  width: 1200px;
+}
+
+.calender_inner_container {
+  width: 1200px !important;
+}
+
+.tile {
+  background: purple;
+}
