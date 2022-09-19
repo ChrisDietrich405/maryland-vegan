@@ -1,0 +1,24 @@
+.restaurants_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.restaurants_container h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.restaurants_container li {
+  margin: 20px; 
+  list-style: none;
+}
+
+.restaurants_container a {
+  text-decoration: none;
+  transition: .5s
+}
+
+.restaurants_container a:hover {
+    cursor:pointer;
+    color: rgb(83, 69, 69); 
+  }
