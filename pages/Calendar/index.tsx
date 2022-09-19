@@ -18,7 +18,10 @@ const calendar = () => {
         return <p>My event</p>;
       }
       if (date.getUTCDate() === 22 && date.getMonth() === 1) {
-        return <p>New event</p>;
+        return <p>Baltimore - VegFest</p>;
+      }
+      if (date.getUTCDate() === 22 && date.getMonth() === 1) {
+        return <p>Baltimore - VegFest2</p>;
       }
     }
     return <p></p>;
