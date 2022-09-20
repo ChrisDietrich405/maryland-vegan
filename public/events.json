@@ -1,8 +1,20 @@
 [
-    {
-        "title": "Vegfest",
-        "date":  "2022-09-08",
-        "content": "this is an event",
-        "url": "www.google.com",
-    },
+  {
+    "title": "Vegfest",
+    "date": "2022-09-22",
+    "content": "this is an event",
+    "url": "www.google.com"
+  },
+  {
+    "title": "Veganfest",
+    "date": "2022-09-08",
+    "content": "this is a vegan event",
+    "url": "https://www.yahoo.com"
+  },
+  {
+    "title": "Otherfest",
+    "date": "2022-10-16",
+    "content": "another event",
+    "url": "www.google.com"
+  }
 ]

@@ -50,14 +50,8 @@ const restaurants = () => {
               Gangster Vegan
             </a>
             <p>Address: 1065 S Charles St, Baltimore, MD 21230</p>
-            <img
-              src="https://static.wixstatic.com/media/5b956f_56740990ed1742f3ba0f768c2c1066af~mv2.png/v1/fill/w_216,h_159,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GANGSTER_VEGAN.png"
-              alt="GANGSTER_VEGAN.png"
-              style={{ width: "84px", height: "66px", objectFit: "cover" }}
-              // style="width:144px;height:106px;object-fit:cover"
-              // srcset="https://static.wixstatic.com/media/5b956f_56740990ed1742f3ba0f768c2c1066af~mv2.png/v1/fill/w_216,h_159,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GANGSTER_VEGAN.png"
-              // fetchpriority="high"
-            ></img>
+            <img src={"/GANGSTER_VEGAN.webp"} alt="GANGSTER_VEGAN.png"
+              style={{ width: "84px", height: "66px", objectFit: "contain" }}/>
           </li>
           <li>
             <a href="http://harmonybakery.net/" target="_blank">
