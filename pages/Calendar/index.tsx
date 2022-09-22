@@ -5,15 +5,24 @@ import "react-calendar/dist/Calendar.css";
 import styles from "./styles.module.css";
 import { eventNames } from "process";
 
+// interface IOptions { options?: string[]}
+
+// const CardArray: React.FC<IOptions> = ({ options }) => {   return <>{options.map(opt => opt)}</>}
+
 interface TileContentProps {
   date: Date;
   view: Detail;
 }
 
+interface ITileContent {
+  tileContentFunc: () => void;
+}
+
+//https://bobbyhadz.com/blog/react-type-jsx-element-not-assignable-type-functioncomponent
 const calendar = () => {
   const [value, onChange] = useState(new Date());
 
-  function tileContent({ date, view }: TileContentProps) {
+  function tileContentFunc({ date }: TileContentProps) {
     return events.map((event) => {
       const dateObject = new Date(event.date);
       if (
@@ -30,25 +39,7 @@ const calendar = () => {
           </div>
         );
       }
-
-      // console.log(date.getUTCDate(), dateObject.getUTCDate())
-      // if (date === dateObject) {
-      //   return <p>hello</p>;
-      // }
     });
-    // console.log(events)
-    // if (view === "month") {
-    //   if (date.getUTCDate() === 19 && date.getMonth() === 0) {
-    //     return <p>My event</p>;
-    //   }
-    //   if (date.getUTCDate() === 22 && date.getMonth() === 1) {
-    //     return <p>Baltimore - VegFest</p>;
-    //   }
-    //   if (date.getUTCDate() === 22 && date.getMonth() === 1) {
-    //     return <p>Baltimore - VegFest2</p>;
-    //   }
-    // }
-    // return <p></p>;
   }
 
   return (
@@ -61,7 +52,7 @@ const calendar = () => {
         onChange={onChange}
         value={value}
         tileClassName={styles.tile}
-        tileContent={tileContent}
+        tileContent={tileContentFunc}
       />
     </div>
   );
