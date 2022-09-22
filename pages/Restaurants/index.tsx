@@ -98,6 +98,57 @@ const restaurants = () => {
               </a>
               <p>Address: 2915 Greenmount Ave, Baltimore, Maryland</p>
             </li>
+            <li>
+              <a href="http://www.ilovenuvegan.com/" target="_blank">
+                NuVegan Cafe
+              </a>
+              <p>Address: 3105 St Paul St, Baltimore, MD</p>
+            </li>
+            <li>
+              <a href="https://www.refocusedvegan.com/" target="_blank">
+                Refocused
+              </a>
+              <p>Address: 429 N Eutaw St #1N, Baltimore, MD</p>
+            </li>
+            <li>
+              <a href="https://www.sproutvegan2.com/" target="_blank">
+                Sprout Vegan 2.0
+              </a>
+              <p>Address: 101 N Wolfe St suite 4, Baltimore, MD</p>
+            </li>
+            <li>
+              <a href="http://stemfarmkitchen.com/" target="_blank">
+                Stem Farm and Kitchen
+              </a>
+              <p>
+                Address: 301 W 29th St (at R. House food hall), Baltimore,
+                Maryland
+              </p>
+            </li>
+            <li>
+              <a href="https://www.greenhousejuicecafe.com/" target="_blank">
+                Green House Juice Cafe
+              </a>
+              <p>Address: 725 N Wolfe St. Baltimore, MD</p>
+            </li>
+          </ul>
+          <h3>Baltimore County</h3>
+          <ul>
+            <li>
+              <a
+                href="https://j-corbins-vegan-fitness-cafe-llc.business.site/?utm_source=gmb&utm_medium=referral"
+                target="_blank"
+              >
+                J Corbin’s Vegan Fitness Cafe
+              </a>
+              <p>Address: 8604 Harford Rd, Baltimore, MD</p>
+            </li>
+            <li>
+              <a href="https://www.greenhousejuicecafe.com/" target="_blank">
+                Green House Juice Cafe
+              </a>
+              <p>Address: 725 N Wolfe St. Baltimore, MD</p>
+            </li>
           </ul>
         </section>
       </main>
