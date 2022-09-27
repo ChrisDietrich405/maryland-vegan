@@ -143,6 +143,13 @@ const restaurants = () => {
               </a>
               <p>Address: 8604 Harford Rd, Baltimore, MD</p>
             </li>
+            
+            <li>
+              <a href="https://www.huecafeandapothecary.com/" target="_blank">
+              Hue Cafe & Apothecary
+              </a>
+              <p>10210 S Dolfield Rd, Owings Mills</p>
+            </li>
             <li>
               <a href="https://www.greenhousejuicecafe.com/" target="_blank">
                 Green House Juice Cafe
