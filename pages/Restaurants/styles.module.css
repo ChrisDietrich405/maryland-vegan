@@ -1,4 +1,38 @@
-.restaurants_container {
+.main_container {
+  margin-top: 50px; 
+  display: flex;
+}
+
+.inner_container {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 0 auto; 
+}
+
+.inner_container li  {
+  margin-bottom: 45px; 
+}
+
+.inner_container li a {
+  text-decoration: none;
+  margin-bottom: 25px; 
+  background-color: #bfecff;
+  padding: 10px 25px;
+  border-radius: 10px; 
+  transition: 1s;
+}
+
+.inner_container li a:hover {
+  cursor: pointer;
+  background-color:#afc9e2 
+}
+
+
+
+
+
+/* .restaurants_container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -21,4 +55,4 @@
 .restaurants_container a:hover {
     cursor:pointer;
     color: rgb(83, 69, 69); 
-  }
+  } */

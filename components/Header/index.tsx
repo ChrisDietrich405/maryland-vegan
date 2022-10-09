@@ -15,10 +15,13 @@ const Header = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="/About">About</Link>
             </li>
             <li>
               <Link href="/Restaurants">Restaurants</Link>
+            </li>
+            <li>
+              <Link href="/Resources">Resources</Link>
             </li>
             <li>
               <Link href="/Calendar">Calendar</Link>

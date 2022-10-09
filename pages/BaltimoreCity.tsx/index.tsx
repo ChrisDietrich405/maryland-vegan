@@ -1,59 +1,9 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import React from 'react'
 
-import Head from "next/head";
-import styles from "./styles.module.css";
-
-const restaurants = () => {
+const BaltimoreCity = () => {
   return (
-    <>
-      <Head>
-        <title>Restaurants, Maryland Vegan</title>
-        <meta
-          name="description"
-          content="Maryland has many wonderfully delicious vegan restaurants for all kinds of tastebuds. Check out one today!"
-        />
-      </Head>
-      <main className={styles.main_container}>
-        <div className={styles.inner_container}>
-          <div className={styles.restaurant_container}>
-            <ul>
-              
-              <li>
-              <Link href="/BaltimoreCity">Baltimore City</Link>
-              </li>
-              <li>
-              <Link href="/BaltimoreCounty">Baltimore County</Link>
-              </li>
-              <li>
-                <a
-                  href="https://www.vrg.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Baltimore County
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className={styles.image_container}>
-            <Image
-              src="/restaurantImage.jpg"
-              width="400px"
-              height="400px"
-              alt=""
-            />
-          </div>
-        </div>
-      </main>
-      {/* <main className={styles.restaurants_container}>
-        <h1>
-        Find your closest vegan restaurant or maybe instead...ROAD TRIP!!!!
-        </h1>
-        <section className={styles.inner_container}>
-          <h3>Baltimore City</h3>
-          <ul>
+    <div>
+        <ul>
             <li>
               <a
                 href="https://landofkush.com/"
@@ -165,55 +115,9 @@ const restaurants = () => {
               <p>Address: 725 N Wolfe St. Baltimore, MD</p>
             </li>
           </ul>
-          <h3>Baltimore County</h3>
-          <ul>
-            <li>
-              <a
-                href="https://j-corbins-vegan-fitness-cafe-llc.business.site/?utm_source=gmb&utm_medium=referral"
-                target="_blank"
-              >
-                J Corbin’s Vegan Fitness Cafe
-              </a>
-              <p>Address: 8604 Harford Rd, Baltimore, MD</p>
-            </li>
-            
-            <li>
-              <a href="https://www.huecafeandapothecary.com/" target="_blank">
-              Hue Cafe & Apothecary
-              </a>
-              <p>10210 S Dolfield Rd, Owings Mills</p>
-            </li>
-            
-            <li>
-              <a href="https://www.botanicuisine.com/" target="_blank">
-                 BotaniCuisine
-              </a>
-              <p>Address: 5730 Cottonworth Ave #5351, Baltimore, MD</p>
-            </li>
-            <li>
-              <a href="https://momsorganicmarket.com/nakedlunch/" target="_blank">
-               Naked Lunch
-              </a>
-              <p>Address: 711 W 40th St #163, Baltimore, MD</p>
-            </li>
-            <li>
-              <a href="https://www.greenhousejuicecafe.com/" target="_blank">
-                Green House Juice Cafe
-              </a>
-              <p>Address: 725 N Wolfe St. Baltimore, MD</p>
-            </li>
-            <li>
-              <a href="https://www.treehousetapas.com/" target="_blank">
-                TreeHouse Cafe 
-              </a>
-              <p>Address: 3400 Chestnut Ave, Baltimore, MD</p>
-            </li>
-          </ul>
+          
+    </div>
+  )
+}
 
-        </section>
-      </main> */}
-    </>
-  );
-};
-
-export default restaurants;
+export default BaltimoreCity
