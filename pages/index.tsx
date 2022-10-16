@@ -50,7 +50,26 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main>hello</main>
+      <main className="container">
+        <div className="inner_container">
+          <h1>Welcome to Maryland Vegan!</h1>
+          <h2>
+            This website is dedicated to your health, the planet and most
+            importantly the animals. I hope you find the website useful whether
+            you're looking for upcoming events, a new restaurant to try out, or
+            a weekend trip to an animal sanctuary.
+          </h2>
+        </div>
+        <div className="image_container">
+          <Image src="/vegan-health.png" width="400px" height="400px" alt="" />
+        </div>
+        <div className="image_container">
+          <Image src="/animals.jpg" width="400px" height="400px" alt="" />
+        </div>
+        <div className="image_container">
+          <Image src="/climate-change.jpg" width="400px" height="400px" alt="" />
+        </div>
+      </main>
     </div>
   );
 };

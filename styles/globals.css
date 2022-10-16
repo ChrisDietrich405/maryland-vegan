@@ -6,6 +6,19 @@
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.container {
+  width: 100%
+}
+
+.inner_container {
+  max-width: 960px;
+  margin: 0 auto;  
+}
+
+.inner_container h1 {
+  margin: 30px; 
+  text-align: center;
+}
 
 
 

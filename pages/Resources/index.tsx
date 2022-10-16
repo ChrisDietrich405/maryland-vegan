@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "./styles.module.css";
 
@@ -17,6 +18,7 @@ const Resources = () => {
       <main className={styles.container}>
         <section className={styles.inner_container}>
           <h1>Resources</h1>
+         
           <ul>
             <li>
               <a
@@ -27,7 +29,7 @@ const Resources = () => {
                 Afro Vegan Society
               </a>
               <p>
-                Afro-Vegan Society is a national nonprofit organization with a
+                Afro-Vegan Society is a Baltimore based national nonprofit organization with a
                 mission to provide resources and support to help people in
                 marginalized communities transition to vegan living.
               </p>
@@ -89,30 +91,65 @@ const Resources = () => {
             </li>
             <li>
               <a
-                href="https://www.vrg.org/"
+                href="https://www.facebook.com/groups/163345897614371"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Vegetarian Resource Group
+                Maryland Vegan Families
               </a>
               <p>
-                Vegetarian Resource Group is a non profit dedicated to educating
-                the public about the benefits of a vegan lifestyle
+                Maryland Vegan Families is a Facebook group dedicated to supporting and providing resources to vegan families living in Maryland
               </p>
             </li>
             <li>
               <a
-                href="https://www.vrg.org/"
+                href="https://www.vrg.ohttps://www.facebook.com/groups/509056979150170/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Vegetarian Resource Group
+                Baltimore Vegans
               </a>
               <p>
-                Vegetarian Resource Group is a non profit dedicated to educating
-                the public about the benefits of a vegan lifestyle
+                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
               </p>
             </li>
+            <li>
+              <a
+                href="https://www.pcrm.org/barnard-medical-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Barnard Medical Center
+              </a>
+              <p>
+                Barnard Medical Center is a 100% vegan medical center dedicated to helping people improve their health
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://www.vrg.ohttps://www.facebook.com/groups/509056979150170/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Baltimore Vegans
+              </a>
+              <p>
+                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://www.vrg.ohttps://www.facebook.com/groups/509056979150170/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Baltimore Vegans
+              </a>
+              <p>
+                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
+              </p>
+            </li>
+
           </ul>
         </section>
       </main>
