@@ -27,13 +27,9 @@ const restaurants = () => {
               <Link href="/BaltimoreCounty">Baltimore County</Link>
               </li>
               <li>
-                <a
-                  href="https://www.vrg.org/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Baltimore County
-                </a>
+              <Link href="/WashingtonDC">Washington D.C.</Link>
+                  
+                
               </li>
             </ul>
           </div>

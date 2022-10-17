@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
-import styles from "../styles/home.module.css"
+import styles from "../styles/home.module.css";
 
 const Home: NextPage = () => {
   return (
@@ -55,22 +55,51 @@ const Home: NextPage = () => {
       <main className="container">
         <div className="inner_container">
           <h1>Welcome to Maryland Vegan!</h1>
-          <h2>
+          <h3>
             This website is dedicated to your health, the planet and most
             importantly the animals. I hope you find the website useful whether
             you're looking for upcoming events, a new restaurant to try out, or
             a weekend trip to an animal sanctuary.
-          </h2>
+          </h3>
         </div>
-        <div className="image_container">
-          <Image src="/vegan-health.png" width="400px" height="400px" alt="" />
-        </div>
-        <div className="image_container">
-          <Image src="/animals.jpg" width="400px" height="400px" alt="" />
-        </div>
-        <div className="image_container">
-          <Image src="/climate-change.jpg" width="400px" height="400px" alt="" />
-        </div>
+        <section className="images_container">
+          <div className="image_container">
+            <Image
+              className="image"
+              src="/vegan-health.png"
+              width="250
+              px"
+              height="250
+              px"
+              alt=""
+            />
+            <h3>For Health</h3>
+          </div>
+          <div className="image_container">
+            <Image
+              className="image"
+              src="/animals.jpg"
+              width="250
+            px"
+              height="250
+            px"
+              alt=""
+            />
+            <h3>For The Animals</h3>
+          </div>
+          <div className="image_container">
+            <Image
+              className="image"
+              src="/climate-change.jpg"
+              width="250
+              px"
+              height="250
+              px"
+              alt=""
+            />
+            <h3>For The Planet</h3>
+          </div>
+        </section>
       </main>
     </div>
   );

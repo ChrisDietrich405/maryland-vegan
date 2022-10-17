@@ -2,8 +2,8 @@ import React from 'react'
 
 const BaltimoreCity = () => {
   return (
-    <div>
-        <ul>
+    <div className="container">
+        <ul className="inner_container">
             <li>
               <a
                 href="https://landofkush.com/"
