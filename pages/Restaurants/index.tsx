@@ -27,6 +27,16 @@ const restaurants = () => {
               <Link href="/BaltimoreCounty">Baltimore County</Link>
               </li>
               <li>
+              <Link href="/FrederickCounty">Frederick County</Link>
+                  
+                
+              </li>
+              <li>
+              <Link href="/HowardCounty">Howard County</Link>
+                  
+                
+              </li>
+              <li>
               <Link href="/WashingtonDC">Washington D.C.</Link>
                   
                 
