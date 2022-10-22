@@ -1,0 +1,32 @@
+.restaurant_container {
+    max-width: 1200px;
+    margin: 20px auto; 
+}
+
+.restaurant_container h2 {
+    margin-bottom: 20px; 
+}
+
+.restaurant_container li {
+    text-decoration: none; 
+    margin-bottom: 20px; 
+    padding-bottom: 20px; 
+}
+
+.restaurant_container li a {
+    text-decoration: none;
+    margin-bottom: 25px; 
+    background-color: #bfecff;
+    padding: 10px 25px;
+    border-radius: 10px; 
+    transition: 1s;
+  }
+  
+  .restaurant_container li a:hover {
+    cursor: pointer;
+    background-color:#afc9e2 
+  }
+
+  .restaurant_container li p{
+    margin-top: 20px; 
+  }
