@@ -1,0 +1,25 @@
+{
+  "baltimorecity": [
+    {   
+      "name": "Land of Kush",
+      "url": "https://landofkush.com/",
+      "address": "840 N Eutaw St, Baltimore, MD 21201"
+    },
+    {
+      "name": "Land of Kush",
+      "url": "https://landofkush.com/",
+      "address": "840 N Eutaw St, Baltimore, MD 21201"
+    },
+    {
+      "name": "Land of Kush",
+      "url": "https://landofkush.com/",
+      "address": "840 N Eutaw St, Baltimore, MD 21201"
+    }
+  ],
+
+  "baltimorecounty": [
+    {
+        "name":"Land of Kush"
+    }
+  ]
+}

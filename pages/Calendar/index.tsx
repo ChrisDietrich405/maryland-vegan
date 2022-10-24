@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import Calendar, { Detail } from "react-calendar";
+
 import events from "../../public/events.json";
 import "react-calendar/dist/Calendar.css";
 import styles from "./styles.module.css";
 import { eventNames } from "process";
-
-// interface IOptions { options?: string[]}
-
-// const CardArray: React.FC<IOptions> = ({ options }) => {   return <>{options.map(opt => opt)}</>}
 
 interface TileContentProps {
   date: Date;
@@ -45,14 +42,16 @@ const calendar = () => {
   return (
     <div
       className={styles.calendar_container}
-      style={{ width: "1200px", margin: "0 auto" }}
+      style={{ width: "96%", margin: "0 auto" }}
     >
+   
       <Calendar
         className={styles.calender_inner_container}
         onChange={onChange}
         value={value}
         tileClassName={styles.tile}
         tileContent={tileContentFunc}
+        nextLabel={<h1>⬅️</h1>}
       />
     </div>
   );

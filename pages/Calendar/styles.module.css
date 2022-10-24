@@ -1,7 +1,8 @@
 
 .calender_inner_container {
-  width: 1200px !important;
-  margin-top: 30px; 
+  width: 100% !important;
+  margin-top: 30px;
+  border: none;  
 }
 
 .calender_inner_container span {
@@ -9,6 +10,15 @@
   font-size: 2rem;
 }
 
+/* .calender_inner_container .navigation__prev2-button {
+  background: purple; 
+  width: 200px;
+  height: 200px; 
+} */
+
+.react-calendar__navigation__arrow .react-calendar__navigation__next-button {
+  background: green !important;
+}
 .tile {
   
   height: 20vh;

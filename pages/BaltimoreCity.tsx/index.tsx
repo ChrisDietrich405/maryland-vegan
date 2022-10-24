@@ -1,10 +1,21 @@
 import React from 'react'
+import data from "../../db.json"
 
 const BaltimoreCity = () => {
+  console.log(data)
   return (
     <div className="container">
         <ul className="inner_container">
-            <li>
+           {data.baltimorecity.map((restaurant) => {
+            return (
+              <>
+              <h3>{restaurant.name}</h3>
+              <p>{restaurant.address}</p>
+              <p>{restaurant.url}</p>
+              </>
+            )
+           })}
+            {/* <li>
               <a
                 href="https://landofkush.com/"
                 target="_blank"
@@ -114,10 +125,11 @@ const BaltimoreCity = () => {
               </a>
               <p>Address: 725 N Wolfe St. Baltimore, MD</p>
             </li>
-          </ul>
+            */}
+           </ul>
           
-    </div>
-  )
-}
+     </div>
+   )
+ }
 
-export default BaltimoreCity
+ export default BaltimoreCity 
