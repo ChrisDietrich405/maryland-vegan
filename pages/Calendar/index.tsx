@@ -51,10 +51,13 @@ const calendar = () => {
         value={value}
         tileClassName={styles.tile}
         tileContent={tileContentFunc}
-        nextLabel={<h1>⬅️</h1>}
+        prevLabel={<h1>⬅️</h1>}
+        prev2Label={<h1 style={{display: "none"}}>1</h1>}
+        nextLabel={<h1>➡️</h1>}
+        next2Label={<h1 style={{display: "none"}}>1</h1>}
       />
     </div>
   );
-};
+};  
 
 export default calendar;
