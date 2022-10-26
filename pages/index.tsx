@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 
-import styles from "../styles/home.module.css";
+import styles from "../styles/home.module.css"
 
 const Home: NextPage = () => {
   return (
@@ -52,8 +52,8 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <main className="container">
-        <div className="inner_container">
+      <main className={styles.container}>
+        <div className={styles.inner_container}>
           <h1>Welcome to Maryland Vegan!</h1>
           <h3>
             This website is dedicated to your health, the planet and most

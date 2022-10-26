@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={styles.header_container}>
       <div className={styles.inner_container}>
-        <Image src="/logo.png" width={123} height={77} />
+        <Image src="/logo.png" width={50} height={50} />
         <nav className={styles.nav_container}>
           <ul>
             <li>
