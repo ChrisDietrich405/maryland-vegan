@@ -8,11 +8,10 @@ const BaltimoreCity = () => {
         <ul className="inner_container">
            {data.baltimorecity.map((restaurant) => {
             return (
-              <>
+              <a target="_blank" href = {restaurant.url}>
               <h3>{restaurant.name}</h3>
               <p>{restaurant.address}</p>
-              <p>{restaurant.url}</p>
-              </>
+              </a>
             )
            })}
             {/* <li>

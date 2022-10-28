@@ -1,4 +1,6 @@
 
+
+
 .calender_inner_container {
   width: 100% !important;
   margin-top: 30px;
@@ -10,16 +12,22 @@
   font-size: 2rem;
 }
 
-/* .calender_inner_container .navigation__prev2-button {
-  background: purple; 
-  width: 200px;
-  height: 200px; 
-} */
+.left_arrow {
+  background-color: purple;
+  transform: rotate(45deg) !important;
+}
 
 .react-calendar__navigation__arrow .react-calendar__navigation__next-button {
   background: green !important;
 }
+
 .tile {
-  
   height: 20vh;
 }
+
+.tile:active {
+  color: #fff !important;
+}
+
+
+

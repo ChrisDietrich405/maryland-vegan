@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Calendar, { Detail } from "react-calendar";
+import { FaFontAwesome, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 import events from "../../public/events.json";
 import "react-calendar/dist/Calendar.css";
@@ -28,12 +29,10 @@ const calendar = () => {
         date.getUTCFullYear() === dateObject.getUTCFullYear()
       ) {
         return (
-          <div>
+          <a className={styles.calendar_event_container} href={event.url} target="_blank">
             <p>{event.title}</p>
-            <a href={event.url} target="_blank">
-              {event.url}
-            </a>
-          </div>
+           <p>{event.city}</p>
+          </a>
         );
       }
     });
@@ -44,20 +43,23 @@ const calendar = () => {
       className={styles.calendar_container}
       style={{ width: "96%", margin: "0 auto" }}
     >
-   
       <Calendar
         className={styles.calender_inner_container}
         onChange={onChange}
         value={value}
         tileClassName={styles.tile}
         tileContent={tileContentFunc}
-        prevLabel={<h1>⬅️</h1>}
-        prev2Label={<h1 style={{display: "none"}}>1</h1>}
-        nextLabel={<h1>➡️</h1>}
-        next2Label={<h1 style={{display: "none"}}>1</h1>}
+        prevLabel={<span><FaArrowLeft/></span>}
+        prev2Label={<h1 style={{ display: "none" }}>1</h1>}
+        nextLabel={
+          <span>
+           <FaArrowRight/>
+          </span>
+        }
+        next2Label={<h1 style={{ display: "none" }}>1</h1>}
       />
     </div>
   );
-};  
+};
 
 export default calendar;

@@ -3,18 +3,21 @@
     "title": "Vegfest",
     "date": "2022-09-22",
     "content": "this is an event",
+    "city": "Baltimore",
     "url": "www.google.com"
   },
   {
     "title": "Veganfest",
     "date": "2022-09-08",
     "content": "this is a vegan event",
+    "city": "Baltimore",
     "url": "https://www.yahoo.com"
   },
   {
-    "title": "Otherfest",
-    "date": "2022-10-16",
+    "title": "Fall Dining Experience with The Veggie Tabe",
+    "date": "2022-11-05",
     "content": "another event",
-    "url": "www.google.com"
+    "city": "Baltimore",
+    "url": "https://www.facebook.com/events/1236777110231857?ref=newsfeed"
   }
 ]
