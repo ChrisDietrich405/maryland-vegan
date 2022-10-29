@@ -2,9 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { FaBars, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-
-import { links, social } from "../../data";
-// import "./styles.css"
+import styles from "./styles.module.css";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -14,7 +12,8 @@ const Navbar = () => {
 
   useEffect(() => {
     if (showLinks) {
-      const linksHeight = linksRef?.current?.getBoundingClientRect().height || 0;
+      const linksHeight =
+        linksRef?.current?.getBoundingClientRect().height || 0;
       setDivHeight(linksHeight);
     } else {
       setDivHeight(0);
@@ -22,21 +21,21 @@ const Navbar = () => {
   }, [showLinks]);
 
   return (
-    <nav>
-      <div className="nav-center">
-        <div className="nav-header">
-        <Image src="/logo.png" width={123} height={77} />
+    <nav className={styles.navbar_container}>
+      <div className={styles.nav_center}>
+        <div className={styles.nav_header}>
+          <Image src="/logo.png" width={123} height={77} />
           <button
-            className="nav-toggle"
+            className={styles.nav_toggle}
             onClick={() => setShowLinks(!showLinks)}
           >
             <FaBars />
           </button>
         </div>
 
-        <div className="links-container" style={{ height: `${divHeight}px` }}>
-          <ul className="links" ref={linksRef}>
-          <li>
+        <div className={styles.links_container} style={{ height: `${divHeight}px` }}>
+          <ul className={styles.links} ref={linksRef}>
+            <li>
               <Link href="/">Home</Link>
             </li>
             <li>
@@ -47,20 +46,10 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/Calendar">Calendar</Link>
-              {/* calendar is a component or page it's a component but how do I make a page from that */}
+            
             </li>
           </ul>
         </div>
-
-        <ul className="social-icons">
-          {social.map((icons) => {
-            return (
-              <li>
-                <a href={icons.url}>{icons.icon}</a>
-              </li>
-            );
-          })}
-        </ul>
       </div>
     </nav>
   );
