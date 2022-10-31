@@ -1,0 +1,32 @@
+.calender_inner_container {
+  padding: 30px;
+  width: 100% !important;
+  margin-top: 30px;
+  border: none;
+}
+
+.calender_inner_container span {
+  border: none;
+  font-size: 2rem;
+}
+
+.tile {
+  background-color: transparent !important;
+  height: 20vh;
+}
+
+.tile a p {
+  color: green !important; 
+}
+
+.tile:active {
+  color: #000;
+}
+
+.tile:focus {
+  background-color: red !important;
+}
+
+.tile:hover {
+  background-color: lightgray !important;
+}

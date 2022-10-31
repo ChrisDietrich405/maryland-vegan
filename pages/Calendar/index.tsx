@@ -4,7 +4,7 @@ import { FaFontAwesome, FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 import events from "../../public/events.json";
 import "react-calendar/dist/Calendar.css";
-import styles from "./styles.module.css";
+
 import { eventNames } from "process";
 
 interface TileContentProps {
@@ -29,7 +29,7 @@ const calendar = () => {
         date.getUTCFullYear() === dateObject.getUTCFullYear()
       ) {
         return (
-          <a className={styles.calendar_event_container} href={event.url} target="_blank">
+          <a href={event.url} target="_blank">
             <p>{event.title}</p>
            <p>{event.city}</p>
           </a>
@@ -40,23 +40,23 @@ const calendar = () => {
 
   return (
     <div
-      className={styles.calendar_container}
+      className="calendar_container"
       style={{ width: "96%", margin: "0 auto" }}
     >
       <Calendar
-        className={styles.calender_inner_container}
+        className="calender_inner_container"
         onChange={onChange}
         value={value}
-        tileClassName={styles.tile}
+        tileClassName="tile"
         tileContent={tileContentFunc}
         prevLabel={<span><FaArrowLeft/></span>}
-        prev2Label={<h1 style={{ display: "none" }}>1</h1>}
+        prev2Label={null}
         nextLabel={
           <span>
            <FaArrowRight/>
           </span>
         }
-        next2Label={<h1 style={{ display: "none" }}>1</h1>}
+        next2Label={null}
       />
     </div>
   );

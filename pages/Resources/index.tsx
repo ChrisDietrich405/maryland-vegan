@@ -3,6 +3,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
+import data from "../../resources.db.json";
+
 import styles from "./styles.module.css";
 
 const Resources = () => {
@@ -17,8 +19,40 @@ const Resources = () => {
       </Head>
       <main className={styles.container}>
         <section className={styles.inner_container}>
+          {data.resources.map((resource) => {
+            return (
+              <>
+                {/* <div className="container text-center"> */}
+
+                <div className="col container text-center">
+                  <div className="card row " style={{ width: "18rem" }}>
+                    <a
+                      className="card-body col"
+                      target="_blank"
+                      href={resource.url}
+                    >
+                      <h5 className="card-title">{resource.name}</h5>
+                      <p className="card-text">{resource.content}</p>
+                    </a>
+                  </div>
+                </div>
+
+                {/* </div> */}
+              </>
+            );
+          })}
+
+          {/* <img src="..." className="card-img-top" alt="..." /> */}
+          <h5 className="card-title">Card title</h5>
+          <p className="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" className="btn btn-primary">
+            Go somewhere
+          </a>
           <h1>Resources</h1>
-         
+
           <ul>
             <li>
               <a
@@ -29,9 +63,10 @@ const Resources = () => {
                 Afro Vegan Society
               </a>
               <p>
-                Afro-Vegan Society is a Baltimore based national nonprofit organization with a
-                mission to provide resources and support to help people in
-                marginalized communities transition to vegan living.
+                Afro-Vegan Society is a Baltimore based national nonprofit
+                organization with a mission to provide resources and support to
+                help people in marginalized communities transition to vegan
+                living.
               </p>
             </li>
             <li>
@@ -98,7 +133,9 @@ const Resources = () => {
                 Maryland Vegan Families
               </a>
               <p>
-                Maryland Vegan Families is a Facebook group dedicated to supporting and providing resources to vegan families living in Maryland
+                Maryland Vegan Families is a Facebook group dedicated to
+                supporting and providing resources to vegan families living in
+                Maryland
               </p>
             </li>
             <li>
@@ -110,7 +147,8 @@ const Resources = () => {
                 Baltimore Vegans
               </a>
               <p>
-                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
+                Baltimore Vegans is a Facebook group dedicated to encouraging
+                veganism and supporting vegans in Baltimore
               </p>
             </li>
             <li>
@@ -122,7 +160,8 @@ const Resources = () => {
                 Barnard Medical Center
               </a>
               <p>
-                Barnard Medical Center is a 100% vegan medical center dedicated to helping people improve their health
+                Barnard Medical Center is a 100% vegan medical center dedicated
+                to helping people improve their health
               </p>
             </li>
             <li>
@@ -134,7 +173,8 @@ const Resources = () => {
                 Baltimore Vegans
               </a>
               <p>
-                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
+                Baltimore Vegans is a Facebook group dedicated to encouraging
+                veganism and supporting vegans in Baltimore
               </p>
             </li>
             <li>
@@ -146,10 +186,10 @@ const Resources = () => {
                 Baltimore Vegans
               </a>
               <p>
-                Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore
+                Baltimore Vegans is a Facebook group dedicated to encouraging
+                veganism and supporting vegans in Baltimore
               </p>
             </li>
-
           </ul>
         </section>
       </main>

@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "../../db.json"
+import data from "../../restaurants.db.json"
 
 const BaltimoreCity = () => {
   console.log(data)

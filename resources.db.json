@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "name": "Afro Vegan Society",
+      "url": "https://www.afrovegansociety.org/",
+      "content" : "Afro-Vegan Society is a Baltimore based national nonprofit organization with a mission to provide resources and support to help people in marginalized communities transition to vegan living."
+    },
+    {
+      "name": "Poplar Spring Animal Sanctuary",
+      "url": "https://www.animalsanctuary.org/",
+      "content" : "Poplar Spring Animal Sanctuary is a 400 acre non-profit refuge in Poolesville, Maryland for farm animals and wildlife."
+    },
+    {
+      "name": "Black Vegan Society",
+      "url": "https://blackvegsociety.org/",
+      "content": "The Black Veg Society’s mission is to educate the public, particularly BIPOC communities, on the benefits of veganism and the plant-based diet."
+    },
+    {
+      "name": "Earthsave Baltimore",
+      "url": "https://earthsavebaltimore.org/",
+      "content" : " Earthsave Baltimore is a local non profit dedicated to promoting all aspects of veganism. It hosts potlucks, restaurant get togethers and speaking events."
+    },
+    {
+      "name": "Vegetarian Resource Group",
+      "url": "https://www.vrg.org/",
+      "content": "  Vegetarian Resource Group is a non profit dedicated to educating the public about the benefits of a vegan lifestyle."
+    },
+    {
+      "name": "Maryland Vegan Families",
+      "url": "https://www.facebook.com/groups/163345897614371",
+      "content" :  "Maryland Vegan Families is a Facebook group dedicated to supporting and providing resources to vegan families living in Maryland."
+    },
+    {
+      "name": "Afro Vegan Society",
+      "url": "https://www.vrg.ohttps://www.facebook.com/groups/509056979150170/",
+      "content": "Baltimore Vegans is a Facebook group dedicated to encouraging veganism and supporting vegans in Baltimore."
+    },
+    {
+      "name": "Barnard Medical Center",
+      "url": "https://www.pcrm.org/barnard-medical-center",
+      "content": "Barnard Medical Center is a 100% vegan medical center dedicated to helping people improve their health."
+    }
+  ]
+}
