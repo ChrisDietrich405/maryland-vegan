@@ -1,140 +1,136 @@
 {
-    "baltimorecity": [
-        {
-            "name": "Land of Kush",
-            "url": "https://landofkush.com/",
-            "address": "840 N Eutaw St, "
-        },
-        {
-            "name": "The Greener Kitchen",
-            "url": "https://www.thegreenerkitchen.com/?fbclid=IwAR1-M9QZk0iM2nCtgZYuqDlWtVTDKpK5LDFvLd4-NbPvVpd1tA2LIgo9tkw",
-            "address": "803 Washington Blvd, Baltimore, MD 21230"
-        },
-        {
-            "name": "Dodah's Kitchen",
-            "url": "https://dodahskitchen.com/",
-            "address": "1210 N. Charles St., Baltimore, MD 21201"
-        },
-        {
-            "name": "Double Zero",
-            "url": "https://www.matthewkenneycuisine.com/double-zero-baltimorehttps://www.matthewkenneycuisine.com/double-zero-baltimore",
-            "address": "414 Light St, Baltimore, MD 21202"
-        },
-        {
-            "name": "Gangster Vegan",
-            "url": "https://www.gangstervegan.com/",
-            "address": "1065 S Charles St, Baltimore, MD 21230"
-        },
-        {
-            "name": "Harmony Bakery",
-            "url": "http://harmonybakery.net/",
-            "address": "3446 Chestnut Ave, Baltimore, MD 21211"
-        },
-        {
-            "name": "Legendary Lifestyle Cafe",
-            "url": "https://www.legendarylifestylecafe.com/",
-            "address": "1301 North Broadway, Baltimore, Maryland"
-        },
-        {
-            "name": "Liora",
-            "url": "https://www.matthewkenneycuisine.com/liora",
-            "address": "The Charm'tastic Mile, 414 Light St"
-        },
-        {
-            "name": "My Mama's Vegan",
-            "url": "https://mymamasvegan.com/",
-            "address": "2915 Greenmount Ave, Baltimore, Maryland"
-        },
-        {
-            "name": "NuVegan Cafe",
-            "url": "http://www.ilovenuvegan.com/",
-            "address": "3105 St Paul St, Baltimore, MD"
-        },
-        {
-            "name": "Refocused",
-            "url": "https://www.refocusedvegan.com/",
-            "address": "429 N Eutaw St #1N, Baltimore, MD"
-        },
-        {
-            "name": "Sprout Vegan 2.0",
-            "url": "https://www.sproutvegan2.com/",
-            "address": "101 N Wolfe St suite 4, Baltimore, MD"
-        },
-        {
-            "name": "Stem Farm and Kitchen",
-            "url": "http://stemfarmkitchen.com/",
-            "address": "301 W 29th St (at R. House food hall), Baltimore,"
-        },
-        {
-            "name": "Green House Juice Cafe",
-            "url": "https://www.greenhousejuicecafe.com/",
-            "address": "725 N Wolfe St. Baltimore, MD"
-        }
-        
-    ],
+  "baltimorecity": [
+    {
+      "name": "Land of Kush",
+      "url": "https://landofkush.com/",
+      "address": "840 N Eutaw St, "
+    },
+    {
+      "name": "The Greener Kitchen",
+      "url": "https://www.thegreenerkitchen.com/?fbclid=IwAR1-M9QZk0iM2nCtgZYuqDlWtVTDKpK5LDFvLd4-NbPvVpd1tA2LIgo9tkw",
+      "address": "803 Washington Blvd, Baltimore, MD 21230"
+    },
+    {
+      "name": "Dodah's Kitchen",
+      "url": "https://dodahskitchen.com/",
+      "address": "1210 N. Charles St., Baltimore, MD 21201"
+    },
+    {
+      "name": "Double Zero",
+      "url": "https://www.matthewkenneycuisine.com/double-zero-baltimorehttps://www.matthewkenneycuisine.com/double-zero-baltimore",
+      "address": "414 Light St, Baltimore, MD 21202"
+    },
+    {
+      "name": "Gangster Vegan",
+      "url": "https://www.gangstervegan.com/",
+      "address": "1065 S Charles St, Baltimore, MD 21230"
+    },
+    {
+      "name": "Harmony Bakery",
+      "url": "http://harmonybakery.net/",
+      "address": "3446 Chestnut Ave, Baltimore, MD 21211"
+    },
+    {
+      "name": "Legendary Lifestyle Cafe",
+      "url": "https://www.legendarylifestylecafe.com/",
+      "address": "1301 North Broadway, Baltimore, Maryland"
+    },
+    {
+      "name": "Liora",
+      "url": "https://www.matthewkenneycuisine.com/liora",
+      "address": "The Charm'tastic Mile, 414 Light St"
+    },
+    {
+      "name": "My Mama's Vegan",
+      "url": "https://mymamasvegan.com/",
+      "address": "2915 Greenmount Ave, Baltimore, Maryland"
+    },
+    {
+      "name": "NuVegan Cafe",
+      "url": "http://www.ilovenuvegan.com/",
+      "address": "3105 St Paul St, Baltimore, MD"
+    },
+    {
+      "name": "Refocused",
+      "url": "https://www.refocusedvegan.com/",
+      "address": "429 N Eutaw St #1N, Baltimore, MD"
+    },
+    {
+      "name": "Sprout Vegan 2.0",
+      "url": "https://www.sproutvegan2.com/",
+      "address": "101 N Wolfe St suite 4, Baltimore, MD"
+    },
+    {
+      "name": "Stem Farm and Kitchen",
+      "url": "http://stemfarmkitchen.com/",
+      "address": "301 W 29th St (at R. House food hall), Baltimore,"
+    },
+    {
+      "name": "Green House Juice Cafe",
+      "url": "https://www.greenhousejuicecafe.com/",
+      "address": "725 N Wolfe St. Baltimore, MD"
+    }
+  ],
 
-    "baltimorecounty": [
-        {
-            "name": "J Corbin’s Vegan Fitness Cafe",
-            "url": "https://j-corbins-vegan-fitness-cafe-llc.business.site/?utm_source=gmb&utm_medium=referral",
-            "address": "8604 Harford Rd, Baltimore, MD"
-        },
-        {
-            "name": "Hue Cafe & Apothecary",
-            "url": "https://www.huecafeandapothecary.com/",
-            "address": "10210 S Dolfield Rd, Owings Mills"
-        },
-        {
-            "name": "BotaniCuisine",
-            "url": "https://www.botanicuisine.com/",
-            "address": "5730 Cottonworth Ave 5351, Baltimore, MD"
-        },
-        {
-            "name": " Naked Lunch",
-            "url": "https://momsorganicmarket.com/nakedlunch/",
-            "address": "711 W 40th St 163, Baltimore, MD"
-        },
-        {
-            "name": "Green House Juice Cafe",
-            "url": "https://www.greenhousejuicecafe.com/",
-            "address": "725 N Wolfe St. Baltimore, MD"
-        },
-        {
-            "name": " TreeHouse Cafe",
-            "url": "https://www.treehousetapas.com/",
-            "address": "3400 Chestnut Ave, Baltimore, MD"
-        }
-        
-    ],
+  "baltimorecounty": [
+    {
+      "name": "J Corbin’s Vegan Fitness Cafe",
+      "url": "https://j-corbins-vegan-fitness-cafe-llc.business.site/?utm_source=gmb&utm_medium=referral",
+      "address": "8604 Harford Rd, Baltimore, MD"
+    },
+    {
+      "name": "Hue Cafe & Apothecary",
+      "url": "https://www.huecafeandapothecary.com/",
+      "address": "10210 S Dolfield Rd, Owings Mills"
+    },
+    {
+      "name": "BotaniCuisine",
+      "url": "https://www.botanicuisine.com/",
+      "address": "5730 Cottonworth Ave 5351, Baltimore, MD"
+    },
+    {
+      "name": " Naked Lunch",
+      "url": "https://momsorganicmarket.com/nakedlunch/",
+      "address": "711 W 40th St 163, Baltimore, MD"
+    },
+    {
+      "name": "Green House Juice Cafe",
+      "url": "https://www.greenhousejuicecafe.com/",
+      "address": "725 N Wolfe St. Baltimore, MD"
+    },
+    {
+      "name": " TreeHouse Cafe",
+      "url": "https://www.treehousetapas.com/",
+      "address": "3400 Chestnut Ave, Baltimore, MD"
+    }
+  ],
 
-    "frederickcounty" : [
-        {
-            "name": "Hippy Chick Hummus",
-            "url": "https://hippy-chick-hummus.square.site/s/order/",
-            "address": "237 N Market St, Frederick, MD"
-        }
-    ],
+  "frederickcounty": [
+    {
+      "name": "Hippy Chick Hummus",
+      "url": "https://hippy-chick-hummus.square.site/s/order/",
+      "address": "237 N Market St, Frederick, MD"
+    }
+  ],
 
-    "howardcounty": [
-        {
-            "name": "Great Sage",
-            "url": "https://greatsage.com/",
-            "address": "5809 Clarksville Square Dr, Clarksville, MD "
-        },
-        {
-            "name": "Plnt Burger (inside Whole Foods)",
-            "url": "https://www.plntburger.com/menus/",
-            "address": "10275 Little Patuxent Pkwy, Columbia, MD 21044 "
-        }
-    ], 
+  "howardcounty": [
+    {
+      "name": "Great Sage",
+      "url": "https://greatsage.com/",
+      "address": "5809 Clarksville Square Dr, Clarksville, MD "
+    },
+    {
+      "name": "Plnt Burger (inside Whole Foods)",
+      "url": "https://www.plntburger.com/menus/",
+      "address": "10275 Little Patuxent Pkwy, Columbia, MD 21044 "
+    }
+  ],
 
-    "washingtondc": [
-        {
-            "name": "Elizabeth's Gone Raw",
-            "url": "https://www.elizabethsgoneraw.com/",
-            "address": "1341 L St NW Suite 1, Washington, DC "
-        }
-    ]
+  "washingtondc": [
+    {
+      "name": "Elizabeth's Gone Raw",
+      "url": "https://www.elizabethsgoneraw.com/",
+      "address": "1341 L St NW Suite 1, Washington, DC "
+    }
+  ]
 }
-
-
